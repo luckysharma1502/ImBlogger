@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Fira+Sans+Extra+Condensed:wght@200;300&family=Poppins:ital,wght@0,200;0,300;1,200&family=Roboto&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing : border-box;
+font-family: 'Poppins', sans-serif;
+color:rgb(220, 205, 205)
+}
+
+.section{
+    width:100%;
+    min-height: 87vh;
+    /* background-color: rgb(156, 159, 180); */
+    background-image: linear-gradient(#614385,#516395);
+
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+    letter-spacing: 1px;
+    
+}
+
+.image-section {
+    float: right;
+    width: 40%;
+    
+   
+
+}
+
+.image-section img{
+width: 60%;
+height: auto;
+margin-top: 20px;
+margin-left: 40px;
+border-radius: 5px;
+}
+
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+
+}
+
+.content-section .content h3{
+    margin-top:20px;
+    color: #e8e6e6;
+    font-size: 21px;
+}
+
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content-section .content .button{
+    margin-top: 30px;
+}
+
+.content-section .content .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+
+.content-section .content .button a:hover{
+    background-color: rgb(3, 73, 138);
+    color: black;
+}
+
+.content-section .social{
+    margin-top: 40px;
+}
+
+.content-section .social i{
+    color:#a50a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.content-section .social i:hover{
+    color: #3d3d3d;
+}
+
+.image-section{
+    margin: 20px;
+    display: flex;
+}
+
+
+@media screen and (max-width : 768Px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+
+    }
+
+    .content-section{
+        float: none;
+        width: 100%;
+        display:  block;
+        margin: auto;
+    }
+     
+    .image-section{
+        float:none;
+        width: 100%;
+    }
+
+    .image-section img{
+        width: 70%;
+        height: auto;
+        display: block;
+        margin:auto;
+
+    }
+    .content-section .title{
+        text-align:  center;
+        font-size:19px;
+    }
+
+    .content-section .content .button{
+        text-align: center;
+    }
+
+    .content-section .social{
+        padding: 9px 170px;
+    }
+}
+
+.footer{
+    height: 50px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    }
+    
+    
+

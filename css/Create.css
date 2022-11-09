@@ -1,0 +1,61 @@
+
+body{
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+    margin: auto;
+    padding: 15px;
+    margin-left: 400px;
+    color: wheat;
+
+}
+#text{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 370px;
+    padding: 25px;
+    display: block;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    
+}
+.submit{
+ margin :20px;
+ padding:20px;  
+ margin-left: 700px;
+ display: block;
+
+}
+
+.post{
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1E90FF;
+    width: 160px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition-duration: 0.3s ;
+    
+}
+
+.post:hover , .post:focus ,.btn:active {
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+     transform: scale(1.1);
+     text-decoration: none;
+     background-color: rgb(43, 40, 184);
+     color: burlywood;
+
+}
